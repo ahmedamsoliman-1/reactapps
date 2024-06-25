@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tree
+```{tree}
+src/
+│
+├── assets/           # Static assets like images, fonts, etc.
+├── components/       # Reusable components
+│   ├── NavBar.tsx
+│   └── ...
+├── pages/            # Page components
+│   ├── Home.tsx
+│   ├── About.tsx
+│   └── Contact.tsx
+├── hooks/            # Custom hooks
+├── contexts/         # Context providers
+├── services/         # API calls and business logic
+├── styles/           # Global styles and theming
+├── utils/            # Utility functions
+├── App.tsx           # Main App component
+├── index.tsx         # Entry point
+└── routes.tsx        # Route definitions
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
